@@ -5,8 +5,8 @@ exports.clientName = 'byteball';
 exports.minClientVersion = '2.1.0';
 
 // https://console.developers.google.com
-exports.pushApiProjectNumber = 0;
-exports.pushApiKey = '';
+exports.pushApiProjectNumber = 459454964929;
+exports.pushApiKey = 'AIzaSyBUS_qtTevl1F7iUGjvSQEqZ-4NR88h8pE';
 
 exports.port = 6611;
 //exports.myUrl = 'wss://mydomain.com/bb';
