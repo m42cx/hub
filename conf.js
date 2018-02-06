@@ -6,7 +6,7 @@ exports.minClientVersion = '2.1.0';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 459454964929;
-exports.pushApiKey = 'AIzaSyBUS_qtTevl1F7iUGjvSQEqZ-4NR88h8pE';
+exports.pushApiKey = 'AIzaSyCZV1SXZNrbK2LQquBAiwLDO0ZU2IbQUb0';
 
 exports.port = 6611;
 //exports.myUrl = 'wss://mydomain.com/bb';
