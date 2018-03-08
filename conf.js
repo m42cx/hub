@@ -1,8 +1,8 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'byteball';
-exports.minClientVersion = '2.1.0';
+exports.clientName = 'dagcoin';
+exports.minClientVersion = '1.4.3';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;

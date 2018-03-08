@@ -1,12 +1,12 @@
 /*jslint node: true */
 'use strict';
-const conf = require('byteballcore/conf.js');
-const eventBus = require('byteballcore/event_bus.js');
-const network = require('byteballcore/network.js');
-const storage = require('byteballcore/storage.js');
-const db = require('byteballcore/db.js');
-const mail = require('byteballcore/mail.js');
-const validationUtils = require('byteballcore/validation_utils.js');
+const conf = require('core/conf.js');
+const eventBus = require('core/event_bus.js');
+const network = require('core/network.js');
+const storage = require('core/storage.js');
+const db = require('core/db.js');
+const mail = require('core/mail.js');
+const validationUtils = require('core/validation_utils.js');
 
 const arrRegistryAddresses = Object.keys(conf.trustedRegistries);
 network.setWatchedAddresses(arrRegistryAddresses);
