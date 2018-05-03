@@ -7,9 +7,10 @@ exports.minClientVersion = '1.4.3';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;
+exports.WS_PROTOCOL = "ws://";
 exports.pushApiKey = '';
 
-exports.port = 26611;
+exports.port = 16611;
 // exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;
@@ -23,16 +24,23 @@ exports.HEARTBEAT_TIMEOUT = 300 * 1000;
 
 exports.storage = 'sqlite';
 
+// testnet
+// exports.initial_witnesses = [
+// 	'DKXEANWQQDYVTWQEJS5MBLMGGQBC5BFT',
+// 	'Z2XQRGHWRCGDWP2DK4PIHXFEIZ3O7PRB'
+// ];
 
 exports.initial_witnesses = [
-	'DKXEANWQQDYVTWQEJS5MBLMGGQBC5BFT',
-	'Z2XQRGHWRCGDWP2DK4PIHXFEIZ3O7PRB'
+    "2OY57MQYKZSFDJXLDUFDEMNK7TMMBL5L",
+    "J72HTGBVYZPEHMXLCPBJHH4OHZRASU2H",
+    "L4XM66D4XJM7XKVOMSMDCZ5SJDWTLAVG",
+    "QLQSJ4VMDHF5YD4VBVKMQ2XTATQS735Q",
+    "WCKDY6NUPSTKA2UYBW5WFIZNPJ6VA2LG",
+    "YHVFZ7IMRM7FZAVJ2YRJVIWSJEN5O7HB"
 ];
 
 exports.initial_peers = [];
 
-exports.trustedRegistries = {
-	AM6GTUKENBYA54FYDAKX2VLENFZIMXWG: 'market'
-};
+exports.trustedRegistries = {};
 
 console.log('finished hub conf');
