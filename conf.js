@@ -3,7 +3,7 @@
 'use strict';
 
 exports.clientName = 'dagcoin';
-exports.minClientVersion = '1.4.3';
+exports.minClientVersion = '2.0.0';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;
@@ -11,6 +11,7 @@ exports.WS_PROTOCOL = "ws://";
 exports.pushApiKey = '';
 
 exports.port = 16611;
+exports.getUnitPort = 28952;
 // exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;
@@ -21,6 +22,8 @@ exports.bug_sink_email = 'admin@example.org';
 exports.bugs_from_email = 'bugs@example.org';
 
 exports.HEARTBEAT_TIMEOUT = 300 * 1000;
+exports.MERCHANT_INTEGRATION_API = 'https://api.dagpay.io/api/invoices';
+exports.paymentApi = 'https://explorer.dagcoin.link/mocks/getPaymentById?paymentId=';
 
 exports.storage = 'sqlite';
 
