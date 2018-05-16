@@ -10,4 +10,4 @@ rm conf.js
 
 npm install
 
-cp "environments/$1.conf.js" conf.js
+cat "environments/$1.conf.js" >> conf.js
