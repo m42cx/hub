@@ -10,3 +10,4 @@ exports.initial_witnesses = [
 exports.MERCHANT_INTEGRATION_API = 'https://api.dagpay.io/api/invoices';
 exports.WS_PROTOCOL = "ws://";
 exports.port = 16611;
+exports.getUnitPort = 28952;
