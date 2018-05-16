@@ -9,7 +9,6 @@ exports.minClientVersion = '2.0.0';
 exports.pushApiProjectNumber = 0;
 exports.pushApiKey = '';
 
-exports.port = 16611;
 exports.getUnitPort = 28952;
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;

@@ -4,3 +4,4 @@ exports.initial_witnesses = [
 ];
 
 exports.MERCHANT_INTEGRATION_API = 'https://test-api.dagpay.io/api/invoices';
+exports.port = 26611;
