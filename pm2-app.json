@@ -1,0 +1,17 @@
+[{
+  "name"        : "hub",
+  "script"      : "start.js",
+  "exec_mode"   : "cluster",
+  "pid_file"    : "/home/apps/.pm2/pids/hub.pid",
+  "watch"       : true,
+  "autorestart" : true,
+  "instances"   : 1
+},{
+  "name"       : "hub-tn",
+  "script"     : "start.js",
+  "pid_file"   : "/home/experimental/.pm2/pids/hub-tn.pid",
+  "exec_mode"  : "cluster",
+  "watch"      : true,
+  "autorestart": true,
+  "instances"  : 1
+}]

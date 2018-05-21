@@ -77,11 +77,11 @@ function broadcastNewRates() {
     network.sendAllInboundJustsaying('exchange_rates', rates);
 }
 
-eventBus.on('client_logged_in', (ws) => {
-    if (Object.keys(rates).length > 0) { network.sendJustsaying(ws, 'exchange_rates', rates); }
-});
+// eventBus.on('client_logged_in', (ws) => {
+//     if (Object.keys(rates).length > 0) { network.sendJustsaying(ws, 'exchange_rates', rates); }
+// });
 
-updateRates();
-setInterval(updateRates, 1000 * 60 * 5);
+// updateRates();
+// setInterval(updateRates, 1000 * 60 * 5);
 
 exports.rates = rates;

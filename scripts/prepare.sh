@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
 
-if [ "$1" != "testnet" -a "$1" != "live" ]; then
-    echo "$1 is not a valid environment. Use development, testnet or live"
-    exit 1
-fi
+Green='\033[0;32m'
+Red='\033[0;31m'
+CloseColor='\033[0m'
 
 rm -rf node_modules
 rm conf.js
 
 npm install
 
-cat "environments/$1.conf.js" >> conf.js
+if [ "$1" == "testnet" ]; then
+    sed -ie "s/version = '1.0'/version = '1.0t'/" node_modules/core/constants.js
+fi
+
+cp "environments/$1.conf.js" conf.js
+
+echo -e "${Green}* Done! ${CloseColor}"

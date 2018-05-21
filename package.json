@@ -13,6 +13,8 @@
   "scripts": {
     "pretest": "npm run eslint",
     "eslint": "./node_modules/eslint/bin/eslint.js --cache ./src",
+    "testnet": "./scripts/prepare.sh testnet",
+    "livenet": "./scripts/prepare.sh livenet",
     "start": "node start.js"
   },
   "license": "MIT",
