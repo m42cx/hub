@@ -10,7 +10,7 @@ const eventBus = require('core/event_bus.js');
 if (conf.trustedRegistries && Object.keys(conf.trustedRegistries).length > 0) { require('./asset_metadata.js'); }
 
 eventBus.on('peer_version', (ws, body) => {
-    if (body.program == conf.clientName) {
+    if (body.program === conf.clientName) {
         if (conf.minClientVersion && compareVersions(body.program_version, conf.minClientVersion) === '<') {
             network.sendJustsaying(ws, 'new_version', { version: conf.minClientVersion});
         }

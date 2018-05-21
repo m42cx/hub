@@ -2,7 +2,7 @@
 
 'use strict';
 
-exports.clientName = 'dagcoin';
+exports.clientName = 'dagcoin-wallet';
 exports.minClientVersion = '2.0.0';
 
 // https://console.developers.google.com

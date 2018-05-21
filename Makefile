@@ -13,8 +13,7 @@ ifeq ($(UNAME), Darwin)
 endif
 
 test:
-	$(SHELLCMD) scripts/prepare.sh testnet
-	$(SHELLCMD) scripts/testnetify.sh
+	$(SHELLCMD) scripts/prepare.sh test
 
 live:
 	$(SHELLCMD) scripts/prepare.sh live
