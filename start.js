@@ -6,6 +6,7 @@ require('relay');
 const conf = require('./conf');
 const network = require('core/network');
 const eventBus = require('core/event_bus.js');
+require('./push');
 
 if (conf.trustedRegistries && Object.keys(conf.trustedRegistries).length > 0) { require('./asset_metadata.js'); }
 
