@@ -30,8 +30,8 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "core": "git+https://github.com/dagcoin/core.git",
-    "relay": "git+https://github.com/dagcoin/relay.git",
+    "core": "git+https://github.com/m42cx/TravelFlexCore.git",
+    "relay": "git+https://github.com/m42cx/relay.git",
     "express": "^4.16.1",
     "request": "^2.83.0"
   },
